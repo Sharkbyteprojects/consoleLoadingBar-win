@@ -35,8 +35,12 @@ jobs:
       # See https://docs.microsoft.com/visualstudio/msbuild/msbuild-command-line-reference
       run: msbuild /m /p:Configuration=${{env.BUILD_CONFIGURATION}} ${{env.SOLUTION_FILE_PATH}}
       
+    - name: Copy Include
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      run: mkdir x64/include && cp loadingBarConsole/loadingBarConsole.h x64/include/loadingBarConsole.h
+      
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.0.0
       with:
         name: build
-        path: x64
+        path:  ${{env.GITHUB_WORKSPACE}}/x64
