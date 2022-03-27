@@ -30,8 +30,8 @@ on:
 
 jobs:
   analyze:
+    runs-on: windows-latest
     name: Analyze
-    runs-on: ubuntu-latest
     permissions:
       actions: read
       contents: read
