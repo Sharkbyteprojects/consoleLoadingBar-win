@@ -2,3 +2,5 @@
 # Console Loading Bar 
 
 [OPEN EXAMPLE](https://github.com/Sharkbyteprojects/consoleLoadingBar-win/blob/master/consoleLoadingBar/consoleLoadingBar.cpp)
+
+[FOR LINUX & WINDOWS (CMAKE STATIC VERSION)](https://github.com/Sharkbyteprojects/consoleLoadingbar/)
