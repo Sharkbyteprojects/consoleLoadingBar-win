@@ -3,4 +3,4 @@
 
 [OPEN EXAMPLE](https://github.com/Sharkbyteprojects/consoleLoadingBar-win/blob/master/consoleLoadingBar/consoleLoadingBar.cpp)
 
-[FOR LINUX & WINDOWS (CMAKE STATIC VERSION)](https://github.com/Sharkbyteprojects/consoleLoadingbar/)
+[FOR LINUX & WINDOWS (CMAKE STATIC VERSION)](https://github.com/Sharkbyteprojects/consoleLoadingbar/) ([![CMake](https://github.com/Sharkbyteprojects/consoleLoadingbar/actions/workflows/cmake.yml/badge.svg)](https://github.com/Sharkbyteprojects/consoleLoadingbar/actions/workflows/cmake.yml) [![CMake-Windows](https://github.com/Sharkbyteprojects/consoleLoadingbar/actions/workflows/cmake-win.yml/badge.svg)](https://github.com/Sharkbyteprojects/consoleLoadingbar/actions/workflows/cmake-win.yml) [![CodeQL](https://github.com/Sharkbyteprojects/consoleLoadingbar/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Sharkbyteprojects/consoleLoadingbar/actions/workflows/codeql-analysis.yml))
